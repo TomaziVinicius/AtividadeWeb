@@ -1,0 +1,30 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40%, 2fr));
+    gap: 10px; /*Espaçamento*/
+    padding: 20px;
+}
+.item{
+    text-align: center;
+    font-size: 20px;
+    background: wheat;
+    border: 2px solid;
+    border-radius: 5px;
+    overflow: hidden; /*gerencia compoortamento se excede*/
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.item img{
+    width: 100%;
+    height: auto;
+}
+
+/*
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+*/
