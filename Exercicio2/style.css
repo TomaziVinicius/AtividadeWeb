@@ -1,0 +1,15 @@
+.corpo{
+    background-color: blanchedalmond;
+}
+.container{
+    margin: 0;
+    text-align: center;
+    padding: 5%;
+}
+.nome{
+    color: black;
+}
+.imagem{
+    border-radius: 100%;
+    
+}
