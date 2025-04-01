@@ -1,0 +1,64 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #004e75;
+}
+.pagina{
+    display: flex;
+    flex-direction: column; /*Direcao da coluna*/
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh; /*vh melhor que %  - vh representa a % de ocupação da tela*/
+    background-color: rgb(115, 255, 134);
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 50px black;
+    gap: 5px;
+}
+.formulario h2{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 500; /*Grossura das letras*/
+}
+.formulario h4{
+    padding: 2px;
+    margin: 20px 0;
+    font-weight: 500;
+}
+.formulario input{
+    font-size: 20px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 2px 7px rgb(94, 94, 94);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.formulario label{
+    font-size: 17px;
+    font-weight: 600;
+}
+.btn{
+    background-color: rgb(255, 255, 255);
+    color: #004e75;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 0 !important;
+    width: 150px;
+
+}
+btn:hover{
+    background-color: greenyellow;
+    transform: scale(1.5);
+}
