@@ -19,7 +19,7 @@ header{
     background: rgb(255, 166, 0);
     border: 2px solid;
     border-radius: 5px;
-    overflow: hidden; /*gerencia compoortamento se excede*/
+    overflow: hidden; /*gerencia compoortamento*/
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
 }

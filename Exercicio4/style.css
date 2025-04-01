@@ -21,7 +21,7 @@ h2{
 }
 
 .post-list{
-    list-style: none;
+    list-style: none; /*None tira os . marcador*/
     padding: 10px;
 }
 
