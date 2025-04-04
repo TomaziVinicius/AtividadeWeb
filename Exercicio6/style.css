@@ -33,20 +33,26 @@ header{
     overflow: hidden;
     transition: max-height 1s ease;
 }
+.det-item[open]{
+    transition: 1s ease;
+}
 .det-item summary{
     color: aliceblue;
     cursor: pointer;
     outline: none;
+    transition: 1s ease;
+    opacity: 1;
 }
-.det-item summary:hover{
+/* .det-item summary:hover{
     background: black;
     box-shadow: 0 2px 5px black;
     border-radius: 10px;
-}
+} */
 .det-item[open] summary{
     background: blue;
     box-shadow: 0 2px 5px black;
     border-radius: 10px;
+    /* transition: 1s ease; */
 }
 .det-item p{
     color: aliceblue;
@@ -55,8 +61,9 @@ header{
     box-shadow: 0 2px 5px black;
     padding: 0 17px;
     transition: 1s ease;
-    opacity: 0;
+    opacity: 1;
 }
 .det-item[open] p{
     opacity: 1;
+
 }
