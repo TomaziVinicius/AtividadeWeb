@@ -30,11 +30,33 @@ header{
 .det-item{
     padding: 20px;
     margin: 10px;
+    overflow: hidden;
+    transition: max-height 1s ease;
 }
 .det-item summary{
     color: aliceblue;
+    cursor: pointer;
+    outline: none;
+}
+.det-item summary:hover{
+    background: black;
+    box-shadow: 0 2px 5px black;
+    border-radius: 10px;
+}
+.det-item[open] summary{
+    background: blue;
+    box-shadow: 0 2px 5px black;
+    border-radius: 10px;
 }
 .det-item p{
     color: aliceblue;
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black;
     padding: 0 17px;
+    transition: 1s ease;
+    opacity: 0;
+}
+.det-item[open] p{
+    opacity: 1;
 }
