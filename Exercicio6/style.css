@@ -61,7 +61,7 @@ header{
     box-shadow: 0 2px 5px black;
     padding: 0 17px;
     transition: 1s ease;
-    opacity: 1;
+    opacity: 0;
 }
 .det-item[open] p{
     opacity: 1;
