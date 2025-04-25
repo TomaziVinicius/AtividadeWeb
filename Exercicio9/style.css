@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b0ffb0;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: #fff;
+    padding: 100px;
+    border-radius: 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 2);
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+.item-lista {
+    display: flex;
+    justify-content: space-between; 
+    text-align: left;
+    padding: 20px;
+    border-bottom: 2px solid #b3b3b3; 
+    margin-top: 10px;
+}
+
+.item-lista input[type="checkbox"] {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.item-lista input[type="checkbox"]:checked + label {
+    text-decoration: line-through; /* risca quando marcar o checkbox */
+    color: #aaa;
+}
+
+.atividade-botao {
+    display: flex;
+    gap: 5px;
+}
+
+.atividade-botao button[id="editar"]{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF; /* Cor dos botões */
+    color: white;
+}
+.atividade-botao button[id="excluir"]{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff0000; /* Cor dos botões */
+    color: white;
+}
+
+.atividade-botao button:hover[id="editar"]{
+    background-color: #0056b3; /* Cor dos botões ao passar o mouse */
+}
+.atividade-botao button:hover[id="excluir"]{
+    background-color: #b30000; /* Cor dos botões ao passar o mouse */
+}
